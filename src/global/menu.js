@@ -1,0 +1,43 @@
+const menu = [
+  {
+    code: "school",
+    url: "/school/list",
+    name: "学校管理",
+    order: 0,
+    icon: "School",
+    component: "schoolManagement/list",
+    meta: { cache: true },
+    children: [],
+  },
+  {
+    code: "agency",
+    url: "/agency/list",
+    name: "代理管理",
+    order: 0,
+    icon: "Avatar",
+    component: "agencyManagement/list",
+    meta: null,
+    children: [],
+  },
+  {
+    code: "staff",
+    url: "/staff/list",
+    name: "员工管理",
+    order: 0,
+    icon: "User",
+    component: "staffManagement/list",
+    meta: null,
+    children: [],
+  },
+  {
+    code: "workOrder",
+    url: "/document/list",
+    name: "工单管理",
+    order: 0,
+    icon: "Document",
+    component: "documentManagement/list",
+    meta: null,
+    children: [],
+  },
+];
+export default menu;

@@ -1,0 +1,1 @@
+export default (url) =>()=>import(/* webpackChunkName: "page-[request]" */ `@/views/${url}.vue`)

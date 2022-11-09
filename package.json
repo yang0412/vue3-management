@@ -1,0 +1,45 @@
+{
+  "name": "vue-element-faster",
+  "version": "0.5.5",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve  --open",
+    "build": "vue-cli-service build --mode prod",
+    "report": "vue-cli-service build --report",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.0.0",
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "element-plus": "^2.1.10",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.29",
+    "vue-i18n": "^9.2.0-beta.30",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.31",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-icons": "^0.13.2",
+    "unplugin-vue-components": "^0.17.14",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
+}

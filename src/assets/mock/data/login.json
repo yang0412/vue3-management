@@ -1,0 +1,11 @@
+{
+    "code": 200,
+    "message": null,
+    "data": {
+        "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJOYW1lIjoi566h55CG5ZGYIiwiYXV0aExpc3QiOlsib3JnLmxpc3QiLCJvcmcuYWRkIiwib3JnLmVkaXQiLCJvcmcuZGVsIiwiZGVwdC5saXN0IiwiZGVwdC5hZGQiLCJkZXB0LmVkaXQiLCJkZXB0LmRlbCIsInVzZXIubGlzdCIsInVzZXIuYWRkIiwidXNlci5lZGl0IiwidXNlci5kZWwiLCJyb2xlLmxpc3QiLCJyb2xlLmFkZCIsInJvbGUuZWRpdCIsInJvbGUuZGVsIiwibWVudS5saXN0IiwibWVudS5hZGQiLCJtZW51LmVkaXQiLCJtZW51LmRlbCIsInVzZXIuYXNzaWducm9sZSIsInVzZXIucmVzZXRwd2QiLCJyb2xlLnByaXYiLCJtZW51LmF1dGgiLCJST0xFX-euoeeQhuWRmCJdLCJ1c2VySWQiOjEsImV4cCI6MTY0NjE0NzM0MiwibmJmIjoxNjQ2MTA0MTQyfQ.dFkW1bVOrlJ6KWFrQsXTh_4tY6Cmppy1tTlgW7KcdLxW7_VmfSq8VDJX_gue2OkO63_Ya0w2DzR01IW7ewNgPA",
+        "expire": 43200,
+        "user": {
+            "username": "管理员"
+        }
+    }
+}

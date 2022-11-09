@@ -1,0 +1,142 @@
+:root {
+  --el-body-bg-color: #f0f0f0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--el-body-bg-color);
+  /* overflow: hidden; */
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "微软雅黑", "Microsoft YaHei", "Roboto", "RobotoFallback", "Noto Kufi Arabic", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fr {
+  float: right;
+}
+
+.mt4 {
+  margin-top: 4px;
+}
+
+.single-page-content {
+  padding: 4px;
+
+  .query-form {
+    .el-form--inline .el-form-item {
+      margin-right: 12px;
+    }
+  }
+
+  .operate {
+    margin: 4px;
+
+    .el-alert {
+      max-width: 200px;
+      margin-left: 12px;
+    }
+  }
+}
+
+.page-content-small {
+  .query-form {
+    .el-form-item--small {
+      margin-bottom: 4px;
+      margin-left: 4px;
+    }
+  }
+
+  .operate {
+    .el-alert {
+      height: 24px;
+    }
+  }
+}
+
+.page-content-default,
+.page-content- {
+  .query-form {
+    .el-form-item--default {
+      margin-bottom: 8px;
+      margin-top: 4px;
+      margin-left: 8px;
+    }
+  }
+
+  .operate {
+    .el-alert {
+      height: 32px;
+    }
+  }
+}
+
+.page-content-large {
+  .query-form {
+    .el-form-item--large {
+      margin-bottom: 12px;
+      margin-top: 8px;
+      margin-left: 12px;
+    }
+  }
+}
+
+.el-message-box__content .el-message-box__status {
+  position: absolute !important;
+}
+
+.border-radius {
+  border: 1px solid var(--el-border-color-base);
+  border-radius: 4px;
+}
+
+.marginR24 {
+  margin-right: 24px;
+}
+
+.search-box {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  border-radius: 6px;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  font-weight: normal;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
